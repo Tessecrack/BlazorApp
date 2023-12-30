@@ -3,7 +3,7 @@ name: Deploy to GitHub Pages
 on:
   push:
     branches: master
-    
+    # use ubuntu-latest image to run steps on
 jobs:
   deploy-to-github-pages:
     runs-on: ubuntu-latest
